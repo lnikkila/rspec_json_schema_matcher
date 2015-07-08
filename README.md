@@ -1,5 +1,7 @@
 RSpec JSON schema matcher
--------------------------
+=========================
+
+[![Build status][travis-badge]][travis]
 
 Validate JSON in your specs using [JSON schema](http://json-schema.org/):
 
@@ -64,3 +66,6 @@ Bug reports and pull requests are welcome!
 
 The gem is available as open source under the terms of the
 [ISC License](http://opensource.org/licenses/ISC).
+
+[travis]: https://travis-ci.org/lnikkila/rspec_json_schema_matcher
+[travis-badge]: https://img.shields.io/travis/lnikkila/rspec_json_schema_matcher.svg?style=flat-square
