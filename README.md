@@ -29,13 +29,9 @@ Then install the gem:
 $ bundle
 ```
 
-And finally add this to your `spec_helper.rb`:
-
-```ruby
-require 'rspec_json_schema_matcher'
-```
-
 ### Usage ###
+
+> You might want to read my [blog post](https://lnikki.la/articles/rails-api-integration-tests-3/).
 
 Provides a single RSpec matcher called `match_schema` that accepts a relative
 path to a JSON schema without the .json extension.
