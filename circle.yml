@@ -1,0 +1,21 @@
+---
+
+dependencies:
+  override:
+    - rvm install 2.0.0-p645
+    - rvm install 2.1.6
+    - rvm install 2.2.2
+
+    - rvm 2.0.0-p645 do gem install bundler
+    - rvm 2.1.6      do gem install bundler
+    - rvm 2.2.2      do gem install bundler
+
+    - rvm 2.0.0-p645 do bundle install
+    - rvm 2.1.6      do bundle install
+    - rvm 2.2.2      do bundle install
+
+test:
+  override:
+    - rvm 2.0.0-p645 do bundle exec rspec
+    - rvm 2.1.6      do bundle exec rspec
+    - rvm 2.2.2      do bundle exec rspec
